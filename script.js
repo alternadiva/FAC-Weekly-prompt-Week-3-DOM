@@ -65,13 +65,16 @@ let closeButton1 = document.getElementById("close-button1");
 let closeButton2 = document.getElementById("close-button2");
 let bubbleDiv1 = document.getElementById("speech-bubble1");
 let bubbleDiv2 = document.getElementById("speech-bubble2");
+let validator = document.getElementById("main-content");
 
 function closeBubble1() {
     bubbleDiv1.setAttribute('hidden','');
+    bubbleDiv2.removeAttribute('hidden', '');
 }
 
 function closeBubble2() {
     bubbleDiv2.setAttribute('hidden','');
+    validator.removeAttribute('hidden', '');
 }
 
 closeButton1.addEventListener("click", closeBubble1)

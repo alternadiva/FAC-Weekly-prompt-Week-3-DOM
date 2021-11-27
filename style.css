@@ -1,6 +1,6 @@
 body {
   width: 100vw;
-  height: 85vh;
+  min-height: 80vh;
   margin: 9vh 0 9vh 0;
   background: linear-gradient(
       140deg,
@@ -18,7 +18,7 @@ body {
   display: block;
   margin-left: 8%;
   margin-right: 8%;
-  height: fit-content;
+  min-height: 80vh;
   border-radius: 15px;
   padding: 20px 10px;
   box-shadow: 0px 3px 15px rgba(223, 223, 223, 0.151);
