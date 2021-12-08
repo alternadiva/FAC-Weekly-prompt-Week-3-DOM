@@ -29,6 +29,17 @@ body {
   width: 310px;
   height: 230px;
   opacity: 0.98;
+  animation-duration: 3s;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #speech-bubble1 {
