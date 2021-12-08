@@ -129,6 +129,10 @@ h2 {
   box-shadow: 0px 3px 15px rgba(223, 223, 223, 0.151);
 }
 
+img {
+  cursor: none;
+}
+
 #label-container {
   width: 330px;
   display: block;
